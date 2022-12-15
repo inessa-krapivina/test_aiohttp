@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "test_aiohttp"
+version = "0.1.0"
+description = ""
+authors = ["inessa-krapivina"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SQLAlchemy = "^1.4.44"
+aiohttp = "^3.8.3"
+aiohttp-swagger = "^1.0.16"
+asyncio = "^3.4.3"
+psycopg2 = "^2.9.5"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^6.0.0"
+black = "^22.12.0"
+isort = "^5.11.2"
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

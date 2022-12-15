@@ -1,2 +1,3 @@
-# test_aiohttp
-# test_aiohttp
+# test_Aiohttp
+Тестовое задание. Стек: aiohttp, asyncio, postgresql, sqlalchemy CORE
+
